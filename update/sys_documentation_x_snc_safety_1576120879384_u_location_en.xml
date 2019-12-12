@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_location" label="Location" language="en" table="x_snc_safety_1576120879384">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_location</element>
+            <help/>
+            <hint/>
+            <label>Location</label>
+            <language>en</language>
+            <name>x_snc_safety_1576120879384</name>
+            <plural>Locations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-12 03:21:20</sys_created_on>
+            <sys_id>1e10d5a771a500107f44d351c4d04c9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Location</sys_name>
+            <sys_package display_value="Safety" source="x_snc_safety">cbffc96771a500107f44d351c4d04c06</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Safety">cbffc96771a500107f44d351c4d04c06</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_safety_1576120879384_u_location_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-12 03:21:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

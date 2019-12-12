@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
+    <sys_sg_screen_field action="INSERT_OR_UPDATE">
+        <data_item_field_name>opened_by</data_item_field_name>
+        <description_text/>
+        <description_text_field/>
+        <description_text_type/>
+        <field_name/>
+        <hidden>false</hidden>
+        <order>60</order>
+        <record_id_field/>
+        <screen display_value="Details">45a01da771a500107f44d351c4d04c1e</screen>
+        <screen_data_item_table>x_snc_safety_issue</screen_data_item_table>
+        <sys_class_name>sys_sg_screen_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-12 03:23:42</sys_created_on>
+        <sys_id>c1a05da771a500107f44d351c4d04cbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>opened_by</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety">cbffc96771a500107f44d351c4d04c06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">cbffc96771a500107f44d351c4d04c06</sys_scope>
+        <sys_update_name>sys_sg_screen_field_c1a05da771a500107f44d351c4d04cbf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-12 03:23:42</sys_updated_on>
+        <type>auto</type>
+        <value_only>false</value_only>
+    </sys_sg_screen_field>
+    <sys_translated_text action="delete_multiple" query="documentkey=c1a05da771a500107f44d351c4d04cbf"/>
+</record_update>

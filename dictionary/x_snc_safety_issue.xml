@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Issue" max_length="40" name="x_snc_safety_issue" type="collection">
+        <element attributes="encode_utf8=false" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Small" sequence="0" value="small"/>
+                <element inactive_on_update="false" label="Big" sequence="1" value=" big"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Due date" max_length="40" name="due_date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Opened by" max_length="32" name="opened_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Priority" max_length="40" name="priority" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Critical" value="critical"/>
+                <element inactive_on_update="false" label="Low" value="low"/>
+                <element inactive_on_update="false" label="Moderate" value="moderate"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Short description" max_length="100" name="short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Approval" value="approval"/>
+                <element inactive_on_update="false" label="Complete" value="complete"/>
+                <element inactive_on_update="false" label="New" value="new"/>
+                <element inactive_on_update="false" label="Work in progress" value="work_in_progress"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="opened_by"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+        <index name="index3">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>f9901da771a500107f44d351c4d04c3c</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_safety_issue">
+    <x_snc_safety_issue action="INSERT_OR_UPDATE">
+        <assigned_to display_value="Luke Wilson">46d96f57a9fe198101947a9620895886</assigned_to>
+        <category>small</category>
+        <due_date>2019-11-06</due_date>
+        <location display_value="Long Beach">163c49b037d0200044e0bfc8bcbe5da8</location>
+        <number>SAFT0001018</number>
+        <opened_by display_value="Allyson Gillispie">06826bf03710200044e0bfc8bcbe5d8a</opened_by>
+        <priority>moderate</priority>
+        <short_description>Ante lorem turpis, pharetra adipiscing, quam litora sollicitudin.</short_description>
+        <state>complete</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-12 03:23:29</sys_created_on>
+        <sys_id>f9901da771a500107f44d351c4d04c3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-12 03:23:29</sys_updated_on>
+    </x_snc_safety_issue>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-12 03:27:35</sys_created_on>
+        <sys_id>79819de771a500107f44d351c4d04c3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SAFT0001018</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety">cbffc96771a500107f44d351c4d04c06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">cbffc96771a500107f44d351c4d04c06</sys_scope>
+        <sys_update_name>sys_metadata_link_79819de771a500107f44d351c4d04c3a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-12 03:27:35</sys_updated_on>
+        <tablename>x_snc_safety_issue</tablename>
+    </sys_metadata_link>
+</record_update>

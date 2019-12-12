@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>bd901da771a500107f44d351c4d04c2b</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_safety_issue">
+    <x_snc_safety_issue action="INSERT_OR_UPDATE">
+        <assigned_to display_value="Carol Coughlin">46c1293aa9fe1981000dc753e75ebeee</assigned_to>
+        <category>big</category>
+        <due_date>2019-11-21</due_date>
+        <location display_value="Paris">dc83fa500a0a0a65018ac8fb978a72b9</location>
+        <number>SAFT0001004</number>
+        <opened_by display_value="Melinda Carleton">02826bf03710200044e0bfc8bcbe5d5e</opened_by>
+        <priority>critical</priority>
+        <short_description>Praesent aenean, nullam amet a.</short_description>
+        <state>complete</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-12 03:23:29</sys_created_on>
+        <sys_id>bd901da771a500107f44d351c4d04c2b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-12 03:27:00</sys_updated_on>
+    </x_snc_safety_issue>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-12 03:27:35</sys_created_on>
+        <sys_id>fd819de771a500107f44d351c4d04c2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SAFT0001004</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety">cbffc96771a500107f44d351c4d04c06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">cbffc96771a500107f44d351c4d04c06</sys_scope>
+        <sys_update_name>sys_metadata_link_fd819de771a500107f44d351c4d04c2e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-12 03:27:35</sys_updated_on>
+        <tablename>x_snc_safety_issue</tablename>
+    </sys_metadata_link>
+</record_update>
